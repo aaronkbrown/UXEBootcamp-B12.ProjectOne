@@ -1,0 +1,15 @@
+digraph test {
+    home [label = "on-boarding"];
+    	logIn [label = "logIn"];
+        signUp [label = "signUp"];
+    	 	
+
+    home -> { logIn signUp}
+    logIn -> profile
+    signUp -> profile
+    profile -> {edit calendar wishlist}
+    calendar -> wishlist
+    wishlist -> calendar
+      
+}
+
