@@ -1,0 +1,18 @@
+
+button.btn-new {
+  background-color: #F46F80;
+  padding: 2em;
+  width: 20em;
+  opacity: 0.8;
+  border-radius: 0.8em;
+  border: 1px solid #C60098;
+}
+
+button.btn-login {
+  background-color: #F46F80;
+  padding: 2em;
+  width: 25em;
+  opacity: 0.8;
+  border-radius: 0.8em;
+  border: 1px solid #C60098;
+}
