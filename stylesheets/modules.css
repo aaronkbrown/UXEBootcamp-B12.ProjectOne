@@ -1,0 +1,118 @@
+
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#feefe2;
+}
+
+
+header {
+  background-color:#f97e73;
+  width:100%;
+  top:0;
+  height:7em;
+  position:relative;
+}
+
+nav {
+  display:inline-block;
+  text-align:center;
+  /* background-color:purple; */
+  bottom:0;
+  position:absolute;
+  width:680px;
+}
+
+main {
+  width:100%;
+
+}
+
+h1, h2, h3, p {
+  font-family:'Lato', sans-serif;
+}
+
+header h1{
+  margin-top:0;
+  padding-top:0.2em;
+  padding-left:0.2em;
+  color:white;
+  font-size:4em;
+  font-weight:300;
+  display:inline-block;
+  /* background-color:red; */
+}
+
+nav a{
+  font-family:'Lato', sans-serif;
+  font-weight:300;
+  color:white;
+  width:24%;
+  display:inline-block;
+  text-decoration:none;
+  font-size:1.5em;
+  line-height:170%;
+  background-color:red;
+  margin-bottom:3px;
+}
+
+
+footer {
+  background-color:#f97e73;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  height:7em;
+}
+
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    header h1{
+      font-size:3em;
+    }
+
+    nav{
+      width:550px;
+    }
+    nav a{
+      font-size:1.25em;
+      line-height:200%;
+    }
+  }
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    header h1{
+      font-size:2em;
+    }
+    nav{
+      width:340px;
+    }
+    nav a{
+      line-height:200%;
+      font-size:1em;
+      width:40%;
+    }
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {
+    header h1{
+      font-size:2em;
+    }
+    nav{
+      width:65%;
+    }
+
+    nav a{
+      font-size:1em;
+      line-height:200%;
+      width:40%;
+    }
+  }
+
