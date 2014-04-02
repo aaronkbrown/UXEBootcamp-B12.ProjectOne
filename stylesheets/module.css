@@ -20,11 +20,14 @@ section.m-new {
   margin-bottom: 1.5em;
   font-size: 1.2em;
   border-radius: 0.3em;
-  background-color: #F46F80;
-  opacity: 0.6;
+  background-color: #FFFFFF;
+  opacity: 0.8;
   border: 1px solid #C60098;
 }
 
-#email {
+input.password {
   color: white;
+  margin-bottom: 1.0em;
 }
+
+

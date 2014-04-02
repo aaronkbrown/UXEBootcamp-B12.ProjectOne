@@ -27,7 +27,13 @@
   @media only screen and (max-width: 959px) {}
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    input.password {
+      color: white;
+      margin-bottom: 2.0em;
+    }
+  }
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {
@@ -43,6 +49,11 @@
      #email {
       margin-bottom: 3em;
     }
+
+     .password {
+      color: white;
+      margin-bottom: 2.0em;
+    }
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -57,11 +68,16 @@
     }
 
      #email {
-      margin-bottom: 3em;
+      margin-bottom: 1.5em;
     }
 
      .m-login-new a {
       font-size: 1.5em;
+      margin-bottom: 1.5em;
+    }
+
+    input.password {
+      color: white;
       margin-bottom: 1.5em;
     }
   }
@@ -79,11 +95,11 @@
     }
 
     #email {
-      margin-bottom: 3em;
+      margin-bottom: 1.5em;
     }
 
     button.btn-new {
-      width: 100%;
+      width: 82%;
       height: auto;
       font-size: 1em;
       margin-left: 0.02em;
@@ -100,6 +116,11 @@
       font-size: 1.5em;
       margin-bottom: 1.5em;
     }
+
+    input.password {
+      color: white;
+      margin-bottom: 1.5em;
+   }
   }
 
 
