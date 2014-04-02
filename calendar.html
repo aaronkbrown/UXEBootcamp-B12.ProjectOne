@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="stylesheets/module.css">
+   <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+   <link rel="stylesheet" href="../stylesheets/fonts.css">
+</head>
+<body>
+   <nav>
+         <h1>reminder</h1>
+         <a href="#">profile</a>
+         <a href="#">calendar</a>
+         <a href="#">wishlist</a>
+         <a href="#" class="icon-user2"></a>
+         <a href="#" class="icon-calendar"></a>
+         <a href="#" class="icon-gift"></a>
+   </nav>
+   <section>
+      <h1> your next event:</h1>
+      <h2> her birthday!</h2>
+      <div id="countdown"></div>
+   </section>
+   <section>
+      <h1>add more events!</h1>
+      <form>
+         <input type="date" id="date">
+         <input type="text" placeholder="event" id="event">
+         <input type="button" value="add" id="add">
+      </form>
+      <div id="displayNote"></div>
+   </section>
+   <script type="text/javascript" src="scripts/calendar.js"></script>
+</body>
+</html>
