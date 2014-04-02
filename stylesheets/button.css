@@ -6,22 +6,23 @@ section.m-login {
   text-align: center;
 }
 
-button.btn-login {
+button#btn-login {
   background-color: #F46F80;
-  padding: 0.9em 3.4em;
+  padding: .8em 3.7em;
   opacity: 0.7;
   border-radius: 0.2em;
   border: 1px solid #C60098;
-  font-size: 2em;
-  margin-bottom: 0.4em;
+  font-size: 1.5em;
+  margin-bottom: 1.4em;
+  display: none;
 }
 
-.btn-login {
+#btn-login {
   color: white;
   font-family:'Lato', sans-serif;
 }
 
-button.btn-new {
+button#btn-new {
   background-color: #F46F80;
   padding: 0.8em 4.4em;
   opacity: 0.7;
@@ -32,7 +33,7 @@ button.btn-new {
 }
 
 
-.btn-new {
+#btn-new {
   color: white;
   font-family:'Lato', sans-serif;
 }

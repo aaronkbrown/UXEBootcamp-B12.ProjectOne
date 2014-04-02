@@ -30,4 +30,8 @@ input.password {
   margin-bottom: 1.0em;
 }
 
+#user {
+  display: none;
+}
+
 
