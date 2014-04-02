@@ -3,7 +3,7 @@ $(document).ready(function(){
   var showNote = function showNote(){
     var note = $('#note').val();
 
-    $("#displayNote").append("<div class='item'>" + note + "<span class='icon-cancel'></span>" + "</div>");
+    $("#displayNote").append("<div class='item'>" + note + ' ' + "<span class='icon-cancel2'></span>" + "</div>");
 
     document.form.display.value = null;
 
