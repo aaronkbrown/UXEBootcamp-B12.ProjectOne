@@ -2,13 +2,13 @@ $(document).ready(function(){
 
   var showNote = function showNote(){
     var note = $('#note').val();
-    var el = $(this);
 
     $("#displayNote").append("<div class='item'>" + note + "<span class='icon-cancel'></span>" + "</div>");
 
     document.form.display.value = null;
+
     $(".item").click('.icon-cancel', function(){
-   $(this).closest('div').fadeOut(900);
+   $(this).closest('p').fadeOut(900);
     });
 
   };
