@@ -14,25 +14,28 @@ header {
   background-color:#f97e73;
   width:100%;
   top:0;
-  height:7em;
+  height:6em;
   position:relative;
+  text-align:center;
+
 }
+
 
 nav {
   display:inline-block;
   text-align:center;
   /* background-color:purple; */
   bottom:0;
-  position:absolute;
+  /* position:absolute; */
   width:680px;
 }
 
-main {
-  width:100%;
-
+.mobile-inv{
+  display:none;
 }
 
-h1, h2, h3, p {
+
+h1, h2, h3, p, small {
   font-family:'Lato', sans-serif;
 }
 
@@ -45,6 +48,8 @@ header h1{
   font-weight:300;
   display:inline-block;
   /* background-color:red; */
+  width:260px;
+
 }
 
 nav a{
@@ -56,8 +61,43 @@ nav a{
   text-decoration:none;
   font-size:1.5em;
   line-height:170%;
-  background-color:red;
+  /* background-color:red; */
   margin-bottom:3px;
+}
+
+.logout-top {
+  font-family:'Lato', sans-serif;
+  font-weight:300;
+  color:white;
+  width:24%;
+  display:inline-block;
+  text-decoration:none;
+  font-size:1.5em;
+  line-height:170%;
+  /* background-color:red; */
+  margin-bottom:3px;
+}
+
+
+main {
+  width:100%;
+  text-align:center;
+}
+
+main h1 {
+  color:#c60098;
+  font-size:3em;
+  font-weight:300;
+}
+
+main h2 {
+  color:#c60098;
+  font-weight:300;
+}
+
+main p {
+  color:#c60098;
+  font-weight:300;
 }
 
 
@@ -66,14 +106,38 @@ footer {
   width:100%;
   position:absolute;
   bottom:0;
-  height:7em;
+  height:3em;
+  text-align:center;
+}
+
+small {
+  color:white;
+  font-weight:100;
+}
+
+.logout-bottom {
+  font-family:'Lato', sans-serif;
+  font-weight:300;
+  color:white;
+  position:absolute;
+  bottom:0.5em;
+  right:1em;
+  text-decoration:none;
+  font-size:1.5em;
+  /* background-color:red; */
 }
 
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    header{
+      height:4.5em;
+    }
+
     header h1{
       font-size:3em;
+      width:195px;
     }
 
     nav{
@@ -81,14 +145,29 @@ footer {
     }
     nav a{
       font-size:1.25em;
-      line-height:200%;
+      line-height:170%;
+    }
+    .logout-top{
+      font-size:1.25em;
+      line-height:170%;
+    }
+  }
+
+  /* desktop size */
+  @media only screen and (min-width: 768px) {
+    .logout-bottom{
+      display:none;
     }
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
+    header{
+      height:3em;
+    }
     header h1{
       font-size:2em;
+      width:125px;
     }
     nav{
       width:340px;
@@ -96,23 +175,71 @@ footer {
     nav a{
       line-height:200%;
       font-size:1em;
-      width:40%;
+      width:30%;
+    }
+    .logout-top{
+      display:none;
+    }
+
+    main h1{
+      font-size:2em;
+    }
+    .logout-bottom {
+      font-size:1em;
+      right:0;
+      bottom:0;
+      padding:14px;
+      background-color:#d95e53;
     }
   }
 
+
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {
+    header{
+      height:3em;
+    }
     header h1{
       font-size:2em;
+      width:125px;
+      /* display:block; */
     }
     nav{
-      width:65%;
+      width:250px;
     }
 
     nav a{
       font-size:1em;
       line-height:200%;
-      width:40%;
+      width:30%;
+      display:none;
+    }
+    .logout-top{
+      display:none;
+    }
+    .mobile-inv{
+      font-size:1.5em;
+      line-height:200%;
+      width:30%;
+      display:inline-block;
+    }
+    main h1{
+      font-size:2em;
+    }
+
+
+
+    .logout-bottom {
+      font-size:1em;
+      right:0;
+      bottom:0;
+      padding:14px;
+      background-color:#d95e53;
+    }
+    small{
+      display:block;
+      width:150px;
+      margin:0 auto;
     }
   }
 
