@@ -28,7 +28,9 @@
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-
+      input.password {
+      margin-bottom: 3em;
+    }
   }
 
   /* All Mobile Sizes (devices and browser) */
@@ -39,14 +41,14 @@
     }
 
     .l-top-head h2 {
-      margin-bottom: 7.8em;
+      margin-bottom: 10.3em;
     }
 
      #email {
       margin-bottom: 3em;
     }
 
-     form input.password {
+    input.password {
       margin-bottom: 3em;
     }
   }
@@ -59,7 +61,7 @@
     }
 
     .l-top-head h2 {
-      margin-bottom: 8em;
+      margin-bottom: 6em;
     }
 
      input#email {
@@ -71,8 +73,8 @@
       margin-bottom: 1.5em;
     }
 
-    form input.password {
-      margin-bottom: 1.5em;
+      input.password {
+        margin-bottom: 3em;
     }
 
   }
@@ -82,18 +84,19 @@
 
     header.l-top-head h1 {
       margin-top: 0.5em;
-      font-size: 5  em;
+      font-size: 5em;
     }
 
     .l-top-head h2 {
-      margin-bottom: 7.1em;
+      margin-bottom: 5em;
+      font-size: 1.5em;
     }
 
     #email {
       margin-bottom: 1.5em;
     }
 
-    button.btn-new {
+    button#btn-new {
       width: 82%;
       height: auto;
       font-size: 1em;
@@ -101,11 +104,12 @@
       margin-top: 1em;
     }
 
-    button.btn-login {
+    button#btn-login {
       width: 100%;
       height: auto;
       margin-bottom: 1em;
       margin-left: 0.10em;
+      margin-top: 1em;
     }
 
     .m-login-new a {
@@ -117,8 +121,8 @@
       margin-bottom: 1.4em;
     }
 
-    form input.password {
-      margin-bottom: 0.5em;
+    input.password {
+      margin-bottom: 2em;
     }
   }
 
@@ -149,7 +153,7 @@
   min-height: 100%;
   min-width: 1024px;
   width:100%;
-  heigh: auto;
+  height: auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -169,13 +173,13 @@
 }
 
 .l-top-head h2 {
-  font-size:2em;
+  font-size: 1.5em;
 }
 
 
 .l-top-head {
-  margin-top: 3em;
-  margin-bottom: 15em;
+  margin-top: 2em;
+  margin-bottom: 10em;
 }
 
  .m-login-new a {

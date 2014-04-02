@@ -25,13 +25,12 @@ section.m-new {
   border: 1px solid #C60098;
 }
 
-input.password {
-  color: white;
-  margin-bottom: 1.0em;
-}
-
 #user {
   display: none;
 }
+
+form input.password {
+      margin-bottom: 0.5em;
+    }
 
 
