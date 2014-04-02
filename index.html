@@ -11,40 +11,37 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/button.css">
 </head>
 
-
-
 <body>
 
     <!-- Main Background -->
-   <section class="kiss"></section>
+   <section class="l-banner"></section>
 
    <div class="container">
 
-    <header class="sixteen columns top-splash">
-
+    <header class="sixteen columns l-top-head">
       <h1>reminder</h1>
       <h2>he'll never forget the perfect gift</h2>
     </header>
 
-   <section class="sixteen columns offset-by-six">
-     <input id"email" name="email" type="text" placeholder="example@example.com">
+   <form class="sixteen columns m-email-field">
+     <input id="email" name="email" type="text"  placeholder="example@example.com"autofocus required>
+     <input id="password" name="password" type="password" pattern=".[4, 8]" required placeholder="Password">
+   </form>
+
+   <section class="sixteen columns m-new">
+      <a href="#"><button class="btn-new">Login</button></a>
    </section>
 
-   <section class="three-columns offset-by-six m-new">
-      <a href="#"><button class="btn-new">hey, I'm new!</button></a>
-   </section>
-
-    <section class="three-columns offset-by-six m-login">
-      <a href="#"><button class="btn-login">I'm a member</button></a>
-   </section>
+ <!--    <section class="sixteen columns m-login">
+      <a href="#"><button class="btn-login">Member</button></a>
+   </section> -->
 
    <footer class="sixteen columns m-login-new">
-      <a href="#">Log in new</a>
+      <a href="#">Hey! I'm new</a>
    </footer>
 
 
-   </div>
-
+   </div> <!-- End of Container -->
 
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <script type="text/javascript" src="js/form.js"></script>

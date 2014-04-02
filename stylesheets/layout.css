@@ -31,22 +31,75 @@
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		header.top-splash h2{
-			margin-bottom: 9.3em;
-		}
-		header.top-splash h1{
-			margin-top: .75em;
-		}
+
+      header.l-top-head h1 {
+      margin-top: 0.9em;
+    }
+
+    .l-top-head h2 {
+      margin-bottom: 7.8em;
+    }
+
+     #email {
+      margin-bottom: 3em;
+    }
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    header.l-top-head h1 {
+      margin-top: 0.7em;
+    }
+
+    .l-top-head h2 {
+      margin-bottom: 8em;
+    }
+
+     #email {
+      margin-bottom: 3em;
+    }
+
+     .m-login-new a {
+      font-size: 1.5em;
+      margin-bottom: 1.5em;
+    }
+  }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		header.top-splash h2{
-			margin-bottom: 8em;
+
+    header.l-top-head h1 {
+      margin-top: 0.5em;
+      font-size: 5em;
+    }
+
+		.l-top-head h2 {
+			margin-bottom: 5.7em;
 		}
+
+    #email {
+      margin-bottom: 3em;
+    }
+
+    button.btn-new {
+      width: 100%;
+      height: auto;
+      font-size: 1em;
+      margin-left: 0.02em;
+    }
+
+    button.btn-login {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1em;
+      margin-left: 0.10em;
+    }
+
+    .m-login-new a {
+      font-size: 1.5em;
+      margin-bottom: 1.5em;
+    }
 	}
 
 
@@ -67,7 +120,7 @@
 	    font-weight: normal;
 	    font-style: normal; }
 */
-.kiss{
+.l-banner {
 	background: url(../images/background_couple.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -82,26 +135,31 @@
   left: 0;
 }
 
-h1, h2 {
+.l-top-head h1, h2 {
    font-family:'Lato', sans-serif;
    font-weight:300;
    color:#c60098;
    text-align:center;
    margin:0.2em;
+
 }
 
-h1 {
+.l-top-head h1 {
 	font-size:5em;
 }
 
-h2 {
+.l-top-head h2 {
 	font-size:2em;
 }
 
 
-.top-splash {
-	margin-top:3em;
-	margin-bottom:18em;
+.l-top-head {
+	margin-top: 3em;
+	margin-bottom: 15em;
 }
 
+ .m-login-new a {
+      font-size: 1.5em;
+      margin-bottom: 2em;
+    }
 
