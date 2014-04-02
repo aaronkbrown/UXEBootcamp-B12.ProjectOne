@@ -8,7 +8,7 @@ $(document).ready(function(){
     document.form.display.value = null;
 
     $(".item").click('.icon-cancel', function(){
-   $(this).closest('p').fadeOut(900);
+   $(this).closest('div').fadeOut(900);
     });
 
   };

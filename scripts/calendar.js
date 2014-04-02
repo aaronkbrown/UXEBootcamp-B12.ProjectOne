@@ -25,14 +25,14 @@ setInterval(function(){updateTime();}, 1000 );
 $(document).ready(function(){
 
   var showNote = function showNote(){
-    var event = $('#event').val();
+    var item = $('#event').val();
     var date = $('#date').val();
 
 
     document.form.display.value = null;
 
     $('#add').on('click', function(){
-      $('#displayNote').append("div class='item'>" + event + ' ' + date + "</div>");
+      $('#displayNote').append("div class='item'>" + item + ' ' + date + "</div>");
     });
   };
   });
