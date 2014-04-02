@@ -234,5 +234,10 @@ small {
       padding:14px;
       background-color:#d95e53;
     }
+    small{
+      display:block;
+      width:150px;
+      margin:0 auto;
+    }
   }
 
