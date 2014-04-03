@@ -141,7 +141,7 @@ input {
 }
 
 input#add {
- margin-top: 1em;
+ margin-top: 0.5em;
  padding: .5em 1.6em;
  border: .2em solid #c60098; 
  background-color: #930071;
@@ -198,6 +198,9 @@ input#enter {
   font-family: 'Lato', sans-serif;
   font-size: 2.5em;
   color: #50003e;
+  width:8em;
+  height:1em;
+  margin:0 auto;
 }
 
 .item {
@@ -211,6 +214,21 @@ input#enter {
   font-size: 1em;
   color: #50003e;
 }
+
+  /* standard browser */
+  @media only screen and (min-width: 960px){
+    input[type="text"]{
+      width:20em;
+      font-size:1.5em;
+    }
+    input[type="password"]{
+      width:20em;
+      font-size:1.5em;
+    }
+    input[type="date"]{
+      border-bottom: 2px solid #c60098;
+    }
+  }
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -240,6 +258,17 @@ input#enter {
       top: 4.5em;
       bottom: 3em;
     }
+    input[type="text"]{
+      width:17em;
+      font-size:1.3em;
+    }
+    input[type="password"]{
+      width:17em;
+      font-size:1.3em;
+    }
+    input[type="date"]{
+      border-bottom: 2px solid #c60098;
+    }
   }
 
   /* desktop size */
@@ -247,6 +276,7 @@ input#enter {
     .logout-bottom{
       display:none;
     }
+
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -285,8 +315,17 @@ input#enter {
       top: 3em;
      bottom: 3em;
     }
-  }
 
+    input[type="text"]{
+      width:14em;
+      font-size:1.2em;
+    }
+    input[type="password"]{
+      width:14em;
+      font-size:1.2em;
+
+  }
+}
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {
