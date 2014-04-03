@@ -138,6 +138,7 @@ input {
   border-left: none;
   border-right: none;
   border-bottom: .1em solid #c60098;
+  outline:none;
 }
 
 input#add {
