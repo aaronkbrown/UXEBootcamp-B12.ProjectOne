@@ -12,7 +12,6 @@ section.m-new {
   text-align: center;
 }
 
-
 .m-email-field input {
   margin: 0 auto;
   padding: 1em 1.8em;
@@ -29,8 +28,8 @@ section.m-new {
   display: none;
 }
 
-form input.password {
-      margin-bottom: 0.5em;
-    }
+ input#password {
+  margin-bottom: 1.2em;
+}
 
 

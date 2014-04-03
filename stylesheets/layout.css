@@ -28,40 +28,41 @@
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-      input.password {
-      margin-bottom: 3em;
-    }
+      .m-email-field input#password {
+        margin-bottom: 1.2em;
+      }
   }
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {
 
       header.l-top-head h1 {
-      margin-top: 0.9em;
+      margin-top: 0.5em;
     }
 
     .l-top-head h2 {
-      margin-bottom: 10.3em;
+      margin-bottom: 10.5em;
     }
 
      #email {
       margin-bottom: 3em;
     }
 
-    input.password {
-      margin-bottom: 3em;
-    }
+    .m-email-field input#password {
+        margin-bottom: 1.2em;
+      }
+
   }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
 
     header.l-top-head h1 {
-      margin-top: 0.7em;
+      margin-top: 0.5em;
     }
 
     .l-top-head h2 {
-      margin-bottom: 6em;
+      margin-bottom: 5em;
     }
 
      input#email {
@@ -73,9 +74,9 @@
       margin-bottom: 1.5em;
     }
 
-      input.password {
-        margin-bottom: 3em;
-    }
+      .m-email-field input#password {
+        margin-bottom: 2.0em;
+      }
 
   }
 
@@ -105,7 +106,7 @@
     }
 
     button#btn-login {
-      width: 100%;
+      width: 82%;
       height: auto;
       margin-bottom: 1em;
       margin-left: 0.10em;
@@ -117,12 +118,8 @@
       margin-bottom: 4.5em;
     }
 
-    .m-email-field {
-      margin-bottom: 1.4em;
-    }
+    .m-email-field input {
 
-    input.password {
-      margin-bottom: 2em;
     }
   }
 
@@ -179,7 +176,7 @@
 
 .l-top-head {
   margin-top: 2em;
-  margin-bottom: 10em;
+  margin-bottom: 7em;
 }
 
  .m-login-new a {
