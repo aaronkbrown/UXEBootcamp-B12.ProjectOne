@@ -1,9 +1,9 @@
 <!doctype HTML>
 <html>
   <head>
-    <meta charset="utf-8">
+     <meta charset="utf-8">
     <meta name="viewport" content="minimal-ui">
-    <title>Reminder - template</title>
+    <title>Reminder - wishlist</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/fonts.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/modules.css">
@@ -24,9 +24,18 @@
     </div>
     </header>
     <main>
-      <h1>This is an h1</h1>
-      <h2>This is an h2</h2>
-      <p>Lorem ipsum yadda yadda yadda whatever, this is a p</p>
+      <section class="wishlist">
+      <section id="container">
+         <h1>Wishlist</h1>
+         <section class="list">
+            <form name="form" id="k">
+            <input id="note" type="text" name="display" placeholder="what do you want?">
+            <input id="submit" type="button" value="add">
+            </form>
+            <div id="displayNote"></div>
+         </section>
+      </section>
+   </section>
     </main>
     <footer>
       <div class="lineup">
@@ -34,6 +43,11 @@
       </div>
     </footer>
     <a href="logout.html" class="logout-bottom">Logout</a>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="scripts/wishlist.js"></script>
   </body>
 </html>
+
+
+
 
