@@ -147,7 +147,7 @@
       font-style: normal; }
 */
 .l-banner {
-  background: url(../images/background_couple.jpg) no-repeat center center fixed;
+  background: url(../images/background_couple.jpg) no-repeat 30% center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
