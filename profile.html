@@ -1,36 +1,56 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html>
-<head>
-   <link rel="stylesheet" type="text/css" href="stylesheets/module.css">
-   <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-   <link rel="stylesheet" href="../stylesheets/fonts.css">
-</head>
-<body>
-   <nav>
-         <h1>reminder</h1>
-         <a href="#">profile</a>
-         <a href="#">calendar</a>
-         <a href="#">wishlist</a>
-         <a href="#" class="icon-user2"></a>
-         <a href="#" class="icon-calendar"></a>
-         <a href="#" class="icon-gift"></a>
-   </nav>
-   <section>
-      <form id="minutes">
-         <fieldset>
-         <h1>your information</h1>
-         <input id="firstName" type="text" name="first" placeholder="first name" required>
-         <input id="lastName" type="text" name="last" placeholder="last name" required>
-         <input id="yourEmail" type="text" name="yourEmail" placeholder="your email" required>
-         <input id="theirEmail" type="text" name="theirEmail" placeholder="their email" required>
-         <input id="yourNumber" type="text" name="yourNumber" placeholder="your number" required>
-         <input id="theirNumber" type="text" name="theirNumber" placeholder="their number" required>
-         <input id="password1" type="text" name="password" placeholder="password">
-         <input id="password2" type="text" name="password" placeholder="password again!">
-         <input type="button" value="save">
-      </fieldset>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/fonts.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/modules.css">
+  </head>
+  <body>
+    <header>
+      <div class="lineup">
+      <h1>reminder</h1>
+      <nav>
+        <a href="calendar.html">Calendar</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="profile.html">Profile</a>
+        <a href="logout.html" class="logout-top">Logout</a>
+        <a href="calendar.html" class="icon-calendar mobile-inv"></a>
+        <a href="wishlist.html" class="icon-gift mobile-inv"></a>
+        <a href="profile.html" class="icon-user mobile-inv"></a>
+      </nav>
+    </div>
+    </header>
+    <main>
+      <section>
+      <form>
+         <h1>Edit your information:</h1>
+            <input class="edit" type="text" name="first" placeholder="first name" readonly="readonly">
+            <input class="edit" type="text" name="last" placeholder="last name" readonly="readonly">
+            <input class="edit" type="text" name="yourEmail" placeholder="your email"  readonly="readonly">
+            <input class="edit" type="text" name="theirEmail" placeholder="their email"  readonly="readonly">
+            <input class="edit" type="text" name="yourNumber" placeholder="your number" readonly="readonly">
+            <input class="edit"  type="text"  placeholder="their number"   readonly="readonly">
+            <input class="edit" id="password1" type="password" name="password" placeholder="password" readonly="readonly">
+            <input class="edit" id="password2" type="password" name="password" placeholder="password again!" readonly="readonly">
+            <input id="add" type="button" value="add">
       </form>
    </section>
-   <script type="text/javascript" src="scripts/profile.js"></script>
-</body>
+    </main>
+    <footer>
+      <div class="lineup">
+        <small>Copyright 2014 CHAMPS! Coding, Inc.</small>
+      </div>
+    </footer>
+    <a href="logout.html" class="logout-bottom">Logout</a>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="scripts/profile.js"></script>
+  </body>
 </html>
+
+
+
+
+
+
+
+

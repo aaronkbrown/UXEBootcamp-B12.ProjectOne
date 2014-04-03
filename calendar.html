@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" type="text/css" href="stylesheets/module.css">
-   <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-   <link rel="stylesheet" href="../stylesheets/fonts.css">
+   <link rel="stylesheet" type="text/css" href="stylesheets/fonts.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/modules.css">
 </head>
 <body>
-   <nav>
-         <h1>reminder</h1>
-         <a href="#">profile</a>
-         <a href="#">calendar</a>
-         <a href="#">wishlist</a>
-         <a href="#" class="icon-user2"></a>
-         <a href="#" class="icon-calendar"></a>
-         <a href="#" class="icon-gift"></a>
-   </nav>
-   <section>
+    <header>
+      <div class="lineup">
+      <h1>reminder</h1>
+      <nav>
+        <a href="calendar.html">Calendar</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="profile.html">Profile</a>
+        <a href="logout.html" class="logout-top">Logout</a>
+        <a href="calendar.html" class="icon-calendar mobile-inv"></a>
+        <a href="wishlist.html" class="icon-gift mobile-inv"></a>
+        <a href="profile.html" class="icon-user mobile-inv"></a>
+      </nav>
+    </div>
+    </header>
+    <main>
+      <section>
       <h1> your next event:</h1>
       <h2> her birthday!</h2>
       <div id="countdown"></div>
@@ -25,10 +30,18 @@
       <form>
          <input type="date" id="date">
          <input type="text" placeholder="event" id="event">
-         <input type="button" value="add" id="add">
+         <input type="button" value="add" id="enter">
       </form>
       <div id="displayNote"></div>
    </section>
+    </main>
+    <footer>
+      <div class="lineup">
+        <small>Copyright 2014 CHAMPS! Coding, Inc.</small>
+      </div>
+    </footer>
+    <a href="logout.html" class="logout-bottom">Logout</a>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
    <script type="text/javascript" src="scripts/calendar.js"></script>
-</body>
+  </body>
 </html>

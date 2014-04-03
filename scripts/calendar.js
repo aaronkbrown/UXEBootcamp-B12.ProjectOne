@@ -1,4 +1,4 @@
-
+//$(document).ready(function(){
 function updateTime() {
   var future  = Date.parse("June 11, 2014");
   var now = new Date();
@@ -17,25 +17,24 @@ function updateTime() {
         document.getElementById("countdown")
             .innerHTML =
          days + 'd ' + hh + 'h ' + mm + 'm ' + ss + 's';
-  setInterval(1000);
 }
 setInterval(function(){updateTime();}, 1000 );
 
 
-$(document).ready(function(){
-
-  var showNote = function showNote(){
-    var event = $('#event').val();
-    var date = $('#date').val();
+//$(document).ready(function(){
+    //var item = $('#event').val();
+    //var date = $('#date').val();
 
 
-    document.form.display.value = null;
 
-    $('#add').on('click', function(){
-      $('#displayNote').append("div class='item'>" + event + ' ' + date + "</div>");
+    $('#enter').on('click', function(){
+      var item = $('#event').val();
+      var date = $('#date').val();
+      $('#event').val('');
+      $('#date').val('');
+      $('#displayNote').append("<div class='item'>" + item + ' ' + date + "</div>");
     });
-  };
-  });
+  //});
 
 
 
