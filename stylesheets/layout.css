@@ -89,12 +89,12 @@
     }
 
     header.l-top-head h1 {
-      margin-top: 0.5em;
+      margin-top: 0em;
       font-size: 5em;
     }
 
     .l-top-head h2 {
-      margin-bottom: 5em;
+      margin-bottom: 2em;
       font-size: 1.5em;
     }
 
@@ -107,15 +107,16 @@
       height: auto;
       font-size: 1em;
       margin-left: 0.02em;
-      margin-top: 1em;
+      margin-top: .1em;
+      
     }
 
     button#btn-login {
       width: 82%;
       height: auto;
-      margin-bottom: 1em;
+      margin-bottom: .1em;
       margin-left: 0.10em;
-      margin-top: 1em;
+      margin-top: .1em;
     }
 
     .m-login-new a {
@@ -126,6 +127,7 @@
     .m-email-field input {
       margin-bottom: 1em;
     }
+
   }
 
 
