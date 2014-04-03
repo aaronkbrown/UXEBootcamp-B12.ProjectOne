@@ -1,0 +1,50 @@
+div{
+  font-family:'Lato', sans-serif;
+  text-align:center;
+  font-size:1.8em;
+}
+.scene {
+   width: 20em;
+   height: 10em;
+   margin: 10em auto;
+}
+
+.square {
+   width: 1.6em;
+   height: 1.6em;
+   float: left;
+border-radius:5px;
+   -webkit-transform-origin: bottom left;
+-moz-transform-origin: bottom left;
+-webkit-animation: rotate1 1.6s ease-in-out alternate infinite;
+-moz-animation: rotate1 1.6s ease-in-out alternate infinite;
+}
+
+.a {
+   background-color: #c60098;
+}
+
+.b {
+   background-color: #f97e73;
+}
+
+.c {
+   background-color: #FC68D3;
+}
+
+.d {
+   background-color: rgb(237, 87, 255);
+}
+
+.e {
+   background-color: #FF3AD8;
+}
+
+@-webkit-keyframes rotate1 {
+   100% {-webkit-transform: rotate(-360deg);}
+}
+
+@-moz-keyframes rotate1 {
+   100% {-moz-transform: rotate(-360deg);}
+}
+
