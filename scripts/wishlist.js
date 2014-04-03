@@ -3,11 +3,11 @@ $(document).ready(function(){
   var showNote = function showNote(){
     var note = $('#note').val();
 
-    $("#displayNote").append("<div class='item'>" + note + ' ' + "<span class='icon-cancel2'></span>" + "</div>");
+    $("#displayNote").append("<div class='item'>" + note + ' ' + "<span class='icon-cancel-circle'></span>" + "</div>");
 
     document.form.display.value = null;
 
-    $(".item").click('.icon-cancel', function(){
+    $(".item").click('.icon-cancel-circle', function(){
    $(this).closest('div').fadeOut(900);
     });
 

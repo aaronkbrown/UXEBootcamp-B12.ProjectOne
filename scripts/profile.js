@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.edit').on('dblclick', function(){
+  $('.edit').on('click', function(){
   $(this).removeAttr("readonly");
 });
 

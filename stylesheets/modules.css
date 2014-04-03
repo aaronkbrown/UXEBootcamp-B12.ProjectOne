@@ -1,5 +1,3 @@
-
-
 html, body {
   margin:0;
   padding:0;
@@ -7,6 +5,7 @@ html, body {
 
 body{
   background-color:#feefe2;
+
 }
 
 
@@ -81,7 +80,11 @@ nav a{
 
 main {
   width:100%;
-  text-align:center;
+  text-align: center;
+  top: 6em;
+  bottom: 3em;
+  overflow: auto;
+  position: absolute;
 }
 
 main h1 {
@@ -127,6 +130,87 @@ small {
   /* background-color:red; */
 }
 
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: .8em;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: .1em solid #c60098;
+}
+
+input#add {
+ margin-top: 1em;
+ padding: .5em 1.6em;
+ border: .2em solid #c60098; 
+ background-color: #930071;
+ color: white;
+}
+
+
+input#add:hover {
+  background-color: #c60098;
+  cursor: pointer;
+
+}
+
+
+input#submit {
+   margin-top: 1em;
+   padding: .5em 1.6em;
+   border: .2em solid #c60098; 
+   background-color: #930071;
+   color: white;
+   display: block;
+   margin: 1em auto;
+}
+
+.edit {
+  display: block;
+  margin: .6em auto;
+  padding: .4em .8em;
+  width: 15em;
+
+}
+
+form {
+  text-align: center;
+
+}
+
+.move-p {
+  margin-top: -1.2em;
+  margin-bottom: 1.5em;
+}
+
+input#enter {
+   display: block;
+   margin: 1em auto;
+   margin-top: 1em;
+   padding: .5em 1.6em;
+   border: .2em solid #c60098; 
+   background-color: #930071;
+   color: white;
+}
+
+#countdown {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5em;
+  color: #50003e;
+}
+
+.item {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: #50003e;
+}
+ 
+#date {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #50003e;
+}
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -150,6 +234,11 @@ small {
     .logout-top{
       font-size:1.25em;
       line-height:170%;
+    }
+
+    main {
+      top: 4.5em;
+      bottom: 3em;
     }
   }
 
@@ -191,6 +280,11 @@ small {
       padding:14px;
       background-color:#d95e53;
     }
+
+    main {
+      top: 3em;
+     bottom: 3em;
+    }
   }
 
 
@@ -200,12 +294,11 @@ small {
       height:3em;
     }
     header h1{
-      font-size:2em;
-      width:125px;
-      /* display:block; */
+      display:none;
     }
     nav{
       width:250px;
+
     }
 
     nav a{
@@ -214,20 +307,28 @@ small {
       width:30%;
       display:none;
     }
+
     .logout-top{
       display:none;
     }
+
     .mobile-inv{
       font-size:1.5em;
       line-height:200%;
       width:30%;
       display:inline-block;
     }
+
     main h1{
-      font-size:2em;
+      font-size:1.5em;
+      margin-top: .3em;
+      margin-bottom: none;
     }
 
-
+    main h2 {
+      font-size: 1em;
+      margin-top: -.8em;
+    }
 
     .logout-bottom {
       font-size:1em;
@@ -241,5 +342,30 @@ small {
       width:150px;
       margin:0 auto;
     }
+
+    main {
+      top: 3em;
+      bottom: 3em;
+    }
+
+    input[type="date"] {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+    }
+
+    input[type="date"]:before {
+      content: attr(placeholder);
+      color: #50003e;
+    }
+
+    input[type="date"]:focus:before, input[type="date"]:valid:before {
+      content: "date:";
+    }
+
+    #event {
+      width: 150px;
+    }
+
   }
 
