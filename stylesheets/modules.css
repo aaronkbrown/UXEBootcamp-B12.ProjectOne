@@ -156,6 +156,16 @@ input#add:hover {
 }
 
 
+input#submit {
+   margin-top: 1em;
+   padding: .5em 1.6em;
+   border: .2em solid #c60098; 
+   background-color: #930071;
+   color: white;
+   display: block;
+   margin: 1em auto;
+}
+
 .edit {
   display: block;
   margin: .6em auto;
@@ -288,6 +298,7 @@ input#enter {
     }
     nav{
       width:250px;
+
     }
 
     nav a{
@@ -296,17 +307,27 @@ input#enter {
       width:30%;
       display:none;
     }
+
     .logout-top{
       display:none;
     }
+
     .mobile-inv{
       font-size:1.5em;
       line-height:200%;
       width:30%;
       display:inline-block;
     }
+
     main h1{
-      font-size:2em;
+      font-size:1.5em;
+      margin-top: .3em;
+      margin-bottom: none;
+    }
+
+    main h2 {
+      font-size: 1em;
+      margin-top: -.8em;
     }
 
     .logout-bottom {
@@ -341,11 +362,10 @@ input#enter {
     input[type="date"]:focus:before, input[type="date"]:valid:before {
       content: "date:";
     }
-    
+
     #event {
       width: 150px;
     }
-}
 
   }
 

@@ -25,13 +25,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-calendar:before {
-  content: "\e600";
+.icon-cancel-circle:before {
+  content: "\e600"; 
 }
-.icon-user:before {
+.icon-calendar:before {
   content: "\e601";
 }
-.icon-gift:before {
+.icon-user:before {
   content: "\e602";
+}
+.icon-gift:before {
+  content: "\e603";
 }
 
