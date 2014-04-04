@@ -1,9 +1,11 @@
 section.m-new {
   text-align: center;
+  width:20em;
 }
 
 section.m-login {
   text-align: center;
+  width:20em;
 }
 
 button#btn-login {

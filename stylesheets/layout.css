@@ -106,16 +106,19 @@
       width: 82%;
       height: auto;
       font-size: 1em;
-      margin-left: 0.02em;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: .1em;
-      
+
     }
 
     button#btn-login {
       width: 82%;
       height: auto;
-      margin-bottom: .1em;
-      margin-left: 0.10em;
+      font-size: 1em;
+      /* margin-bottom: .1em; */
+      margin-left: auto;
+      margin-right:auto;
       margin-top: .1em;
     }
 
@@ -190,3 +193,14 @@
       font-size: 1.5em;
       margin-bottom: 2em;
     }
+    button#btn-new {
+      width: 13em;
+
+
+    }
+
+    button#btn-login {
+      width: 13em;
+
+    }
+
